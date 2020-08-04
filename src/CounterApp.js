@@ -13,7 +13,7 @@ const CounterApp = ({value}) => {
         setCounter(value);
     };
 
-    const HandleSubstract = () => {
+    const HandleSubstract = () => {  
         setCounter(counter - 1);
     };
 
